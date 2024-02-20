@@ -1,6 +1,6 @@
 
 let frm = document.querySelector('#form1');        
-function getFormValue() {
+function getFormvalue() {
 	 event.preventDefault();
 
     // Get the values from the form
@@ -12,4 +12,4 @@ function getFormValue() {
 }
 
 // Attach the function to the form submission event
-frm.addEventListener("submit", getFormValue);
+frm.addEventListener("submit", getFormvalue);
